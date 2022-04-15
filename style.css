@@ -3,13 +3,14 @@
 
 body {
     margin: 0px;
-    @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
-</style>
+    @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap') ;
+}
+
 body {
     font-family: 'Bodoni Moda', serif;
 /*    font-size: 1.3em; */
 }
-}
+
 header, section {
     background-color:#918882;
     padding: 20px;
@@ -21,30 +22,29 @@ p, li {
     background-color: #bbada3;
     padding-top: 30px;
     padding-bottom: 0px;
-    box-sizing: border-box;     // "border-box" does not count padding / border in size calculations
+    box-sizing: border-box;     
     border: dotted 1px #CCC;    
-    padding: 10px;              // note: also padding-right, padding-left, padding-top, padding-bottom
-    margin: 10px;               // note: also margin-right, margin-left, margin-top, margin-bottom
-    width: 50vh;
+    padding: 10px;              
+    margin: 0px;               
+    width: 100%;
 }
 #homework {
     background-color: #918882;
     padding-top: 30px;
     padding-bottom: 0px;
-    box-sizing: border-box;     // "border-box" does not count padding / border in size calculations
+    box-sizing: border-box;     
     border: dotted 1px #CCC;    
-    padding: 10px;              // note: also padding-right, padding-left, padding-top, padding-bottom
-    margin: 10px;               // note: also margin-right, margin-left, margin-top, margin-bottom
-    width: 50vh;
+    padding: 10px;              
+    margin: 0px;               
+    width: 100%;
 }
 #inspiration {
     background-color: #bbada3;
     padding-top: 30px;
     padding-bottom: 0px;
-    box-sizing: border-box;     // "border-box" does not count padding / border in size calculations
-    border: dotted 1px #CCC;    
-    padding: 10px;              // note: also padding-right, padding-left, padding-top, padding-bottom
-    margin: 10px;               // note: also margin-right, margin-left, margin-top, margin-bottom
-    width: 50vh;
+    box-sizing: border-box;    
+    padding: 10px;              
+    margin: 0px;               
+    width: 100%;
 }
 
