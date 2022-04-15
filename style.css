@@ -1,7 +1,5 @@
 /* You're welcome to change any of this! */
-* {
-    box-sizing: 
-}
+* 
 
 body {
     margin: 0px;
@@ -49,3 +47,4 @@ p, li {
     margin: 10px;               // note: also margin-right, margin-left, margin-top, margin-bottom
     width: 50vh;
 }
+
