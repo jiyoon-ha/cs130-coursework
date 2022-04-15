@@ -1,21 +1,51 @@
 /* You're welcome to change any of this! */
 * {
-    box-sizing: border-box;
+    box-sizing: 
 }
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+</style>
+body {
+    font-family: 'Bodoni Moda', serif;
+/*    font-size: 1.3em; */
+}
 }
 header, section {
+    background-color:#918882;
     padding: 20px;
 }
 p, li {
     line-height: 1.5em;
 }
-
+#tutorials {
+    background-color: #bbada3;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    box-sizing: border-box;     // "border-box" does not count padding / border in size calculations
+    border: dotted 1px #CCC;    
+    padding: 10px;              // note: also padding-right, padding-left, padding-top, padding-bottom
+    margin: 10px;               // note: also margin-right, margin-left, margin-top, margin-bottom
+    width: 50vh;
+}
+#homework {
+    background-color: #918882;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    box-sizing: border-box;     // "border-box" does not count padding / border in size calculations
+    border: dotted 1px #CCC;    
+    padding: 10px;              // note: also padding-right, padding-left, padding-top, padding-bottom
+    margin: 10px;               // note: also margin-right, margin-left, margin-top, margin-bottom
+    width: 50vh;
+}
 #inspiration {
-    background-color: #F0F0F0;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: #bbada3;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    box-sizing: border-box;     // "border-box" does not count padding / border in size calculations
+    border: dotted 1px #CCC;    
+    padding: 10px;              // note: also padding-right, padding-left, padding-top, padding-bottom
+    margin: 10px;               // note: also margin-right, margin-left, margin-top, margin-bottom
+    width: 50vh;
 }
