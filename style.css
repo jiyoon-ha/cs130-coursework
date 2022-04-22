@@ -12,14 +12,15 @@ body {
 }
 
 header, section {
-    background-color:#918882;
+    background-color:#93a9d1;
     padding: 20px;
+    color: #f7caca;
 }
 p, li {
     line-height: 1.5em;
 }
 #tutorials {
-    background-color: #bbada3;
+    background-color: rgb(206, 164, 213);
     padding-top: 30px;
     padding-bottom: 0px;
     box-sizing: border-box;     
@@ -27,9 +28,10 @@ p, li {
     padding: 10px;              
     margin: 0px;               
     width: 100%;
+    color: #f7caca;
 }
 #homework {
-    background-color: #918882;
+    background-color: #f7caca;
     padding-top: 30px;
     padding-bottom: 0px;
     box-sizing: border-box;     
@@ -37,14 +39,16 @@ p, li {
     padding: 10px;              
     margin: 0px;               
     width: 100%;
+    color: rgb(206, 164, 213);
 }
 #inspiration {
-    background-color: #bbada3;
+    background-color: rgb(206, 164, 213);
     padding-top: 30px;
     padding-bottom: 0px;
     box-sizing: border-box;    
     padding: 10px;              
     margin: 0px;               
     width: 100%;
+    color: #f7caca;
 }
 
