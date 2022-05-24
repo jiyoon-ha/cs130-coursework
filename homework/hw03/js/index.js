@@ -44,7 +44,7 @@ const showNext = (ev) => {
     console.log("currentIndex:", currentIndex);
     displayImage();
 };
-
+4
 const showPrev = (ev) => {
     currentIndex -= 1;
     if (currentIndex<0){
