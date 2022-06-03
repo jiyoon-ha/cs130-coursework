@@ -45,7 +45,13 @@ figure img {
 figure figcaption {
     text-align: center;
     font-size: 2.5em;
+    color: #6a5e52;
+    
 }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 figure img:hover {
     webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     filter: blur(4px);
