@@ -38,7 +38,8 @@ h2, .h2 {
     margin-left: 2%;
 }
 #desc {
-    font-size: 10px;
+    font-size: 4px;
+    margin-left: 10%
 }
 information {
     display: flex;
